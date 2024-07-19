@@ -1,12 +1,12 @@
 header {
 background-color: indigo
 }
-button.home {
+.home {
   background-color: yellow
 }
-button.spacehey {
+.spacehey {
   background-color: blue
 }
-button.forum {
+.forum {
   background-color: orange
 }
