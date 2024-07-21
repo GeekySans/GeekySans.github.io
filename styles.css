@@ -27,3 +27,6 @@ background-color: purple
 h1,h2,h3,p,h4,h5,h6,button {
 color: white
 }
+button {
+background-color: darkgrey
+}
