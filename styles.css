@@ -10,6 +10,15 @@ background-image: url('roses.jpg');
 .forum {
   background-color: orange
 }
+.blogs {
+background-color: lightblue
+}
+.games {
+background-color: lime
+}
+.apps {
+background-color: purple
+}
 h1,h2,h3,p,h4,h5,h6,button {
 color: white
 }
