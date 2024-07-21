@@ -4,33 +4,33 @@ background-repeat: no-repeat;
 background-attachment: fixed;
 }
 .home {
-  background-color: gold
+  background-color: gold;
 }
 .spacehey {
-  background-color: indigo
+  background-color: indigo;
 }
 .forum {
-  background-color: orange
+  background-color: orange;
 }
 .blogs {
-background-color: blue
+background-color: blue;
 }
 .games {
-background-color: green
+background-color: green;
 }
 .apps {
-background-color: red
+background-color: red;
 }
 .search {
-background-color: purple
+background-color: purple;
 }
 .spyglass {
-width: 20
-height: 20
+width: 20;
+height: 20;
 }
 h1,h2,h3,p,h4,h5,h6,button {
-color: white
+color: white;
 }
 button {
-background-color: darkgrey
+background-color: darkgrey;
 }
