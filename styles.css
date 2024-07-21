@@ -1,5 +1,7 @@
 body {
 background-image: url('roses.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
 }
 .home {
   background-color: gold
