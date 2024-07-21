@@ -10,6 +10,6 @@ background-image: url('roses.jpg');
 .forum {
   background-color: orange
 }
-h1,h2,h3,p,h4,h5,h6 {
+h1,h2,h3,p,h4,h5,h6,button {
 color: white
 }
