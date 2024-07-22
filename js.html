@@ -26,13 +26,19 @@
     </header>
     <hr>
     <button onclick='myfunction()'>Click Me!</button>
+    
     <p id="demo">Click The Button</p>
     <script>
-      // This is a javascript FUNCTION
+      // Retrieve
+document.getElementById("demo").innerHTML = localStorage.getItem("remember");
+        
+        // This is a javascript FUNCTION
       function myfunction() {
   
   // This gets an HTML element and changes it.
   document.getElementById("demo").innerHTML = "JS"
+// Store
+localStorage.setItem("remember", "I remembered what you did!");
 }
     </script>
     </center>
