@@ -13,16 +13,16 @@ background-attachment: fixed;
   background-color: orange;
 }
 .blogs {
-background-color: indigo;
+background-color: lightgreen;
 }
 .games {
-background-color: green;
-}
-.apps {
 background-color: red;
 }
+.apps {
+background-color: pink;
+}
 .search {
-background-color: purple;
+background-color: indigo;
 }
 h1,h2,h3,p,h4,h5,h6,button {
 color: white;
