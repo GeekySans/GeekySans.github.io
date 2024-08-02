@@ -1,5 +1,5 @@
 const imgs = [
-  "img1",
+  "https://upload.wikimedia.org/wikipedia/en/9/9a/Trollface_non-free.png",
   "img2",
   "img3"
 ];
