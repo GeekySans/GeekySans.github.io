@@ -1,7 +1,8 @@
 body {
-background-image: url('roses.jpg');
+background-image: url('stars.png');
 background-repeat: no-repeat;
 background-attachment: fixed;
+background-size: 100% 100%;
 }
 .home {
   background-color: gold;
