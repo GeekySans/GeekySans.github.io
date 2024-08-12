@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  width: 4000px;
+  height: 4000px;
+}
+canvas {
+border:1px solid #000000;
+}
+</style>
+</head>
+<body>
+<canvas width="4000px" height="4000px" id="myCanvas">
+<script>
+const canvas = document.getElementById("myCanvas");
+const paint = canvas.getContext("2d");
+
+paint.fillStyle = "lime";
+paint.fillRect(0, 0, 4000, 4000);
+
+let n = 0;
+
+let x = [];
+let y = [];
+
+while (n < 4000) {
+
+x.push(Math.floor(Math.random() * 4000));
+y.push(Math.floor(Math.random() * 4000));
+
+paint.fillStyle = "grey";
+paint.fillRect(x[n], y[n], 50, 50);
+
+n = n + 1
+}
+</script>
+</canvas>
+</body>
+</html>
