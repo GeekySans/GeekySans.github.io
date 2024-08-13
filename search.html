@@ -1,5 +1,5 @@
 <form method="get">
-  <input type="search" list="search">
+  <input type="search" list="search" id="searchbar">
   <datalist id="search">
     <option value="OCD"></option>
     <option value="Secret Message"></option>
@@ -8,5 +8,8 @@
   <button type="submit">Search</button>
 </form>
 <script>
-  
+  let search = document.getElementById("searchbar");
+  if (search == 'OCD') {
+  location.replace("/OCD")
+}
 </script>
