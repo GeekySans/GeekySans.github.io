@@ -29,6 +29,8 @@ background-color: indigo;
 }
 .stuff {
 background-color: black;
+width: 50;
+height: 50;
 }
 h1,h2,h3,p,h4,h5,h6,button,input {
   color: white;
