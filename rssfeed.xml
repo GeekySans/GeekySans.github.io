@@ -2,14 +2,17 @@
 <rss version="2.0">
 
 <channel>
+  
   <title>From GeekySans</title>
   <link>geekysans.github.io/home</link>
   <description>I'm just playing around with RSS</description>
+  
   <item>
   <title>History Of Coding</title>
   <link>geekysans.github.io/historyofcoding</link>
   <description>This is how I am making this RRS feed</description>
   </item>
+  
 </channel>
 
 </rss>
