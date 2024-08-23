@@ -10,6 +10,7 @@ width: 100%;
 height: 0%;
 background-color: black;
 position: fixed;
+float: left;
 }
 .home {
   background-color: gold;
