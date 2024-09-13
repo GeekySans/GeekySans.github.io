@@ -47,6 +47,7 @@ h1,h2,h3,p,h4,h5,h6,button,input {
 }
 button {
 background-color: darkgrey;
+border-radius: 12px;
 }
 a {
   color: blue
