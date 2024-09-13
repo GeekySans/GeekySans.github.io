@@ -11,6 +11,7 @@ background-color: black;
 }
 .stuff {
 border-width: 1px solid; 
+border-color: white;
 margin-top: 100px;
 margin-bottom: 100px;
 margin-right: 150px;
