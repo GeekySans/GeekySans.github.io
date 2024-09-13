@@ -10,6 +10,7 @@ width: 100%;
 background-color: black;
 }
 .stuff {
+border-width: 1px solid; 
 margin-top: 100px;
 margin-bottom: 100px;
 margin-right: 150px;
