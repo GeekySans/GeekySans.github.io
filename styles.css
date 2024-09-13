@@ -9,6 +9,12 @@ background-size: 100% 100%;
 width: 100%;
 background-color: black;
 }
+.stuff {
+margin-top: 100px;
+margin-bottom: 100px;
+margin-right: 150px;
+margin-left: 80px;
+}
 .home {
   background-color: gold;
 }
