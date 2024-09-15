@@ -73,3 +73,9 @@ font-size: 10px;
 h6 {
 font-size: 5px;
 }
+td {
+border-color: white;
+border-width: 5px;
+border-radius: 12px;
+padding: 5px;
+}
