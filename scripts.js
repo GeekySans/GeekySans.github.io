@@ -5,4 +5,5 @@ function forward() {
   window.history.forward();
 }
 
-document.getElementById("blogs").innerHTML = a;
+let blogs = "<h1>test</h1>";
+document.getElementById("blogs").innerHTML = blogs;
