@@ -31,7 +31,161 @@
     </nav>
 </header>
     <hr>
-        
+<canvas id="myCanvas" width="250" height="250">
+<script>
+
+let rgb = 0;
+let grid = [];
+
+for (let l = 0; l < 255; l++) {
+let grasscolor = Math.floor(Math.random() * 3);
+if (grasscolor == 0) {
+rgb = "rgb(0, 128, 0)";
+} else if (grasscolor == 1) {
+rgb = "rgb(0, 256, 0)";
+} else if (grasscolor == 2) {
+rgb = "rgb(0 64, 0)";
+}
+
+grid.push(rgb);
+
+}
+
+let gmx = 0;
+let cmx = 0;
+let cmy = 0;
+let mx = 2;
+let my = 2;
+let r = 0;
+let x = 0;
+let y = 0;
+
+const canvas = document.getElementById("myCanvas");
+const paint = canvas.getContext("2d");
+
+function refresh() {
+paint.clearRect(0, 0, 500, 500);
+
+r = 0;
+x = 0;
+y = 0;
+
+if (cmx < 0) {
+cmx = 0;
+}
+
+if (cmx > 11) {
+cmx = 11;
+}
+
+if (cmy < 0) {
+cmy = 0;
+}
+
+if (cmy > 6) {
+cmy = 6;
+}
+
+if (mx < 0) {
+mx = 0;
+}
+
+if (mx > 4) {
+mx = 4;
+}
+
+if (my < 0) {
+my = 0;
+}
+
+if (my > 4) {
+my = 4;
+}
+
+for (let l = 0; l < 5; l++) {
+paint.fillStyle = grid[cmx + (cmy * 16) + r];
+paint.fillRect(x, 0, 50, 50);
+
+
+
+paint.fillStyle = grid[cmx + (cmy * 16) + r + 16];
+paint.fillRect(x, 50, 50, 50);
+
+
+
+paint.fillStyle = grid[cmx + (cmy * 16) + r + 32];
+paint.fillRect(x, 100, 50, 50);
+
+
+
+paint.fillStyle = grid[cmx + (cmy * 16) + r + 48];
+paint.fillRect(x, 150, 50, 50);
+
+
+
+paint.fillStyle = grid[cmx + (cmy * 16) + r + 64];
+paint.fillRect(x, 200, 50, 50);
+
+x = x + 50;
+r = r + 1;
+}
+paint.strokeRect(mx * 50, my * 50, 50, 50);
+
+setTimeout(refresh, 1);
+}
+
+function up() {
+cmy = cmy - 1;
+}
+
+function left() {
+cmx = cmx - 1;
+}
+
+function right() {
+cmx = cmx + 1;
+}
+
+function down() {
+cmy = cmy + 1;
+}
+
+function mup() {
+my = my - 1;
+}
+
+function mleft() {
+mx = mx - 1;
+}
+
+function mright() {
+mx = mx + 1;
+}
+
+function mdown() {
+my = my + 1;
+}
+
+function place() {
+grid[(cmx) + (cmy * 16) + (mx + my * 16)] = "#151515"
+}
+
+refresh();
+</script>
+</canvas>
+<div>
+<button onclick="up();">Up</button>
+<button onclick="left();">Left</button>
+<button onclick="right();">Right</button>
+<button onclick="down();">Down</button>
+</div>
+<div>
+<button onclick="mup();">mouseUp</button>
+<button onclick="mleft();">mouseLeft</button>
+<button onclick="mright();">mouseRight</button>
+<button onclick="mdown();">mouseDown</button>
+<button onclick="place();">Place</button>
+</div>
     </center>
     </body>
 </html>
