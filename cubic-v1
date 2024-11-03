@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>GeekySans Digital Playground</title>
+</head>
+<body>
+<canvas id="myCanvas" width="250" height="250"></canvas>
+</body>
+</html>
