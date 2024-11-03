@@ -1,9 +1,43 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>GeekySans Digital Playground</title>
+<title>GeekySans's Digital Playground</title>
+<link href="styles.css" type="text/css" rel="stylesheet" />
+<iframe width="0%" height="0" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1374487636&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
+</iframe>
 </head>
 <body>
 <canvas id="myCanvas" width="250" height="250"></canvas>
+<div>
+<button onclick="up();">camUp</button>
+<button onclick="left();">camLeft</button>
+<button onclick="right();">camRight</button>
+<button onclick="down();">camDown</button>
+</div>
+<div>
+<button onclick="mup();">mouseUp</button>
+<button onclick="mleft();">mouseLeft</button>
+<button onclick="mright();">mouseRight</button>
+<button onclick="mdown();">mouseDown</button>
+</div>
+<div>
+<button onclick="hand = 0;">savannaGrass</button>
+<button onclick="hand = 1;">normalGrass</button>
+<button onclick="hand = 2;">darkGrass</button>
+<button onclick="hand = 3;">Brick</button>
+<button onclick="hand = 4;">Stone</button>
+<button onclick="hand = 5;">Wood</button>
+<button onclick="place();">Place</button>
+</div>
+<div>
+<button onclick="pgmx = 16;">16x16</button>
+<button onclick="pgmx = 32;">32x32</button>
+<button onclick="pgmx = 48;">48x48</button>
+<button onclick="pgmx = 64;">64x64</button>
+<button onclick="pgmx = 256;">256x256</button>
+<button onclick="pgmx = 512;">512x512</button>
+<button onclick="generate();">Generate</button>
+</div>
+<script src="scripts.js"></script>
 </body>
 </html>
