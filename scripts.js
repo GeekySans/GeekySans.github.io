@@ -7,6 +7,19 @@ let blogs = [
 "</tr>",
 "<table>"
 ];
+
+let games = [
+"<h1>My Games</h1>",
+"<table class='stuff'>",
+"<tr>",
+"<td><h3>Cubic v2</h3><img src='arcade-TEST-2.png'><p>Well it's more than a testgame... But I need help naming it</p><a href='cubic-v2'><button class='TESTGAME'>Play-Game</button></a></td>",
+"<td><h3>Cubic v1</h3><img src='arcade-TEST-2.png'><p>It's a minecraft</p><a href='cubic-v1'><button class='TESTGAME'>Play-Game</button></a></td>",
+ "</tr>",
+ "<tr>",
+  "<td><h3>TEST #2</h3><img src='arcade-TEST-2.png'><p>It's made just by some rough JS and The HTML Canvas.</p><a href='TESTGAME'><button class='TESTGAME'>Play-Game</button></a></td>",
+  "</tr>",
+  "</table>"
+];
 let data = "";
 
 for (let w = 0; w < blogs.length; w++) {
