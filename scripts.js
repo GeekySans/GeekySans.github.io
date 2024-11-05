@@ -26,7 +26,7 @@ let data = "";
 for (let w = 0; w < blogs.length; w++) {
 data = data + blogs[w];
 }
-document.getElementById("post-table").innerHTML = data;
+document.getElementById("blogtable").innerHTML = data;
 }
 
 function loadgames() {
@@ -34,7 +34,7 @@ let data = "";
 for (let w = 0; w < games.length; w++) {
 data = data + games[w];
 }
-document.getElementById("post-table").innerHTML = data;
+document.getElementById("gametable").innerHTML = data;
 }
 
 function back() {
