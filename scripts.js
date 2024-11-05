@@ -9,8 +9,8 @@ let blogs = [
 ];
 let data = "";
 
-for (let w = 0; w < posts.length; w++) {
-data = data + posts[w];
+for (let w = 0; w < blogs.length; w++) {
+data = data + blogs[w];
 }
 
 document.getElementById("post-table").innerHTML = data;
