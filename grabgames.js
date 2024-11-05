@@ -1,7 +1,7 @@
 let games;
 
 function loadgames() { 
-let games = [
+games = [
 "<h1>My Games</h1>",
 "<table class='stuff'>",
 "<tr>",
