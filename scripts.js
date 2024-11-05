@@ -20,13 +20,22 @@ let games = [
   "</tr>",
   "</table>"
 ];
-let data = "";
 
+function loadblogs() {
+let data = "";
 for (let w = 0; w < blogs.length; w++) {
 data = data + blogs[w];
 }
-
 document.getElementById("post-table").innerHTML = data;
+}
+
+function loadgames() {
+let data = "";
+for (let w = 0; w < games.length; w++) {
+data = data + games[w];
+}
+document.getElementById("post-table").innerHTML = data;
+}
 
 function back() {
   window.history.back();
@@ -35,3 +44,6 @@ function back() {
 function forward() {
   window.history.forward();
 }
+
+loadblogs();
+loadgames();
