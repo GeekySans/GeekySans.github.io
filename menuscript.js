@@ -1,4 +1,5 @@
 let menu;
+
 function loadmenu() {
 menu = [
 "<h1>GeekySans's Digital Playground</h1>",
@@ -23,3 +24,6 @@ function back() {
 function forward() {
   window.history.forward();
 }
+
+loadmenu();
+grabmenu();
