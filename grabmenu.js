@@ -9,11 +9,11 @@ menu = [
 ];
 
 function grabmenu() {
-let data = "";
-for (let w = 0; w < menu.length; w++) {
-data = data + menu[w];
+let data1 = "";
+for (let wm = 0; wm < menu.length; w++) {
+data1 = data1 + menu[wm];
 }
-document.getElementById("menu").innerHTML = data;
+document.getElementById("menu").innerHTML = data1;
 }
 
 }
