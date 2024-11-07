@@ -17,6 +17,10 @@ document.getElementById("menu").innerHTML = data;
 }
 
 }
+
+loadmenu();
+grabmenu();
+
 function back() {
   window.history.back();
 }
@@ -24,6 +28,3 @@ function back() {
 function forward() {
   window.history.forward();
 }
-
-loadmenu();
-grabmenu();
