@@ -16,11 +16,11 @@ games = [
 }
 
 function grabgames() {
-let data = "";
-for (let w = 0; w < games.length; w++) {
-data = data + games[w];
+let data0 = "";
+for (let w0 = 0; w0 < games.length; w0++) {
+data0 = data0 + games[w];
 }
-document.getElementById("gametable").innerHTML = data;
+document.getElementById("gametable").innerHTML = data0;
 }
 
 loadgames();
