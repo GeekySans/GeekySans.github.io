@@ -18,7 +18,7 @@ games = [
 function grabgames() {
 let data0 = "";
 for (let w0 = 0; w0 < games.length; w0++) {
-data0 = data0 + games[w];
+data0 = data0 + games[w0];
 }
 document.getElementById("gametable").innerHTML = data0;
 }
