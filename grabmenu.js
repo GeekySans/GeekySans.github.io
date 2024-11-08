@@ -13,7 +13,7 @@ menu = [
 function grabmenu() {
 data1 = "";
 for (let wm = 0; wm < menu.length; wm++) {
-data1 = data1 + nav[wm];
+data1 = data1 + menu[wm];
 }
 document.getElementById("menu").innerHTML = data1;
 }
