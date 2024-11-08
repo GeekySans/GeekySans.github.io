@@ -3,7 +3,7 @@ let data;
 
 function loadblogs() {
 blogs = [
-"<h2>My-Blogs</h2>",
+"<h2>My Blogs</h2>",
 "<table>",
 "<tr>",
 "<td><h3>My Coding History</h3> <img src='something.gif'> <p>This is about my coding joruney</p> <p><a href='/historyofcoding'><button>View-Blog</button></a></p></td>",
