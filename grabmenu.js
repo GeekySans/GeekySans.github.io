@@ -9,7 +9,7 @@ menu = [
 "<hr>"
 ];
 
-function grabmenu() {
+function grabnav() {
 data1 = "";
 for (let wm = 0; wm < menu.length; wm++) {
 data1 = data1 + menu[wm];
@@ -19,8 +19,8 @@ document.getElementById("menu").innerHTML = data1;
 
 }
 
-loadmenu();
-grabmenu();
+loadnav();
+grabnav();
 
 function back() {
   window.history.back();
