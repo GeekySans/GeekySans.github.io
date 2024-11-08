@@ -18,8 +18,6 @@ data1 = data1 + nav[wm];
 document.getElementById("menu").innerHTML = data1;
 }
 
-}
-
 loadmenu();
 grabmenu();
 
