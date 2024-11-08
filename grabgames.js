@@ -1,4 +1,5 @@
 let games;
+let data0;
 
 function loadgames() { 
 games = [
@@ -16,7 +17,7 @@ games = [
 }
 
 function grabgames() {
-let data0 = "";
+data0 = "";
 for (let w0 = 0; w0 < games.length; w0++) {
 data0 = data0 + games[w0];
 }
