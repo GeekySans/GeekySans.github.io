@@ -1,4 +1,5 @@
 let blogs;
+let data;
 
 function loadblogs() {
 blogs = [
@@ -13,7 +14,7 @@ blogs = [
 }
 
 function grabblogs() {
-let data = "";
+data = "";
 for (let w = 0; w < blogs.length; w++) {
 data = data + blogs[w];
 }
