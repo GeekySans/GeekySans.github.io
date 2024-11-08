@@ -8,6 +8,7 @@ nav = [
 "<div> <button onclick='back()'>Back</button> <button onclick='forward()'>Forward</button> <form action='search.html' method='get'> <input type='search' name='search' placeholder='Search Anything?'> <button type='submit' class='search'><img src='spyglass.png' width='20' height='20'></button> </form> </div>",
 "<hr>"
 ];
+}
 
 function grabnav() {
 data1 = "";
