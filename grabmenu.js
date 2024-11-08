@@ -1,4 +1,5 @@
 let menu;
+let data1;
 
 function loadmenu() {
 menu = [
@@ -9,7 +10,7 @@ menu = [
 ];
 
 function grabmenu() {
-let data1 = "";
+data1 = "";
 for (let wm = 0; wm < menu.length; wm++) {
 data1 = data1 + menu[wm];
 }
