@@ -1,7 +1,7 @@
-let nav;
+let menu;
 let data1;
 
-function loadnav() {
+function loadmenu() {
 nav = [
 "<h1>GeekySans's Digital Playground</h1>",
 "<div> <a href='/home'><button class='home'>Home</button></a> <a href='https://spacehey.com/profile?id=2706928'><button class='spacehey'>Spacehey</button></a> <a href='https://nerdie-board.forumotion.com/'><button class='forum'>Forum</button></a> <a href='/blogs'><button class='blogs'>Blogs</button></a> <a href='/games'><button class='games'>Games</button></a> <a href='/apps'><button class='apps'>Apps</button></a> </div>",
@@ -10,7 +10,7 @@ nav = [
 ];
 }
 
-function grabnav() {
+function grabmenu() {
 data1 = "";
 for (let wm = 0; wm < menu.length; wm++) {
 data1 = data1 + nav[wm];
@@ -20,8 +20,8 @@ document.getElementById("menu").innerHTML = data1;
 
 }
 
-loadnav();
-grabnav();
+loadmenu();
+grabmenu();
 
 function back() {
   window.history.back();
