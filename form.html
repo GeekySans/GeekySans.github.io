@@ -4,11 +4,7 @@
     <title>PHP form</title>
   </head>
   <body>
-    <?php
-$text = $_REQUEST['text'];
-echo "[ $text ]";
-  ?>
-  <form action="/form" method="post">
+  <form action="/formsend.php" method="post">
     <input type="text" name="text">
     <button type="submit">Submit</button>
   </form>
