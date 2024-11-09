@@ -18,7 +18,7 @@ data = "";
 for (let w = 0; w < posts.length; w++) {
 data = data + posts[w];
 }
-document.getElementById("blogtable").innerHTML = data;
+document.getElementById("posttable").innerHTML = data;
 }
 
 loadposts();
