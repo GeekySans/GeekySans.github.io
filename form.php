@@ -5,8 +5,12 @@
   </head>
   <body>
     <?php
-$firstname = $_REQUEST['text'];
+$text = $_REQUEST['text'];
 echo "[ $text ]";
   ?>
+  <form action="/form" method="post">
+    <input type="text" name="text">
+    <button type="submit"></button>
+  </form>
   </body>
 </html>
