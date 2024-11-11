@@ -7,7 +7,7 @@ blogs = [
 "<table>",
 "<tr>",
 "<td><h3>My Coding History</h3> <img src='something.gif'> <p>This is about my coding joruney</p> <p><a href='/historyofcoding'><button>View-Blog</button></a></p></td>",
-"<td><h3>My OCD</h3> <img src='OCD.gif' height='25%' width='25%'> <p>Well it's about my OCD.</p> <p><a href='/OCD'><button>View-Blog</button></a></p></td>",
+"<td><h3>My OCD</h3> <img src='OCD.gif' height='12%' width='12%'> <p>Well it's about my OCD.</p> <p><a href='/OCD'><button>View-Blog</button></a></p></td>",
 "</tr>",
 "<table>"
 ];
