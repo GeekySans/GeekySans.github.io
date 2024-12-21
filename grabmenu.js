@@ -1,12 +1,14 @@
 let menu;
 let data1;
+const now = new Date();
+const hour = now.getHours();
 let greeting;
 
-if (hourNow > 18) {
+if (hour > 18) {
 greeting = 'Good evening'
-} else if (hourNow > 12) {
+} else if (hour > 12) {
 greeting = 'Good afternoon'
-} else if (hourNow > 0) {
+} else if (hour > 0) {
 greeting = 'Good morning'
 } else {
 greeting = 'Welcome'
