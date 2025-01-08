@@ -16,21 +16,17 @@
     <footer>
 <script>
 var parser, xmlDoc;
-var text = "<bookstore><book>" +
-"<title>Everyday Italian</title>" +
-"<author>Giada De Laurentiis</author>" +
-"<year>2005</year>" +
-"</book></bookstore>";
+var text = "<username>GeekySans</username> <bio>uMmM.... just you WAIT!</bio> <post>TEST 1</post> <post>TEST 2</post> <friends> <username>BeekySans</username> <bio>I'm not GeekySAAAAAA</bio> <post>TEST 1</post> <post>TEST 2</post> <username>CheekyCans</username> <bio>AAAAAANNS</bio> <post>TEST 1</post> <post>TEST 2</post> </friends>";
 
 parser = new DOMParser();
 xmlDoc = parser.parseFromString(text,"text/xml");
 
 document.getElementById("demo").innerHTML = "<h1>" +
-xmlDoc.getElementsByTagName("title")[0].childNodes[0].nodeValue + "</h1>";
+xmlDoc.getElementsByTagName("username")[0].childNodes[0].nodeValue + "</h1>";
 document.getElementById("demo2").innerHTML = "<h3>" +
-xmlDoc.getElementsByTagName("author")[0].childNodes[0].nodeValue + "</h3>";
+xmlDoc.getElementsByTagName("bio")[0].childNodes[0].nodeValue + "</h3>";
 document.getElementById("demo3").innerHTML = "<code> Year: " +
-xmlDoc.getElementsByTagName("year")[0].childNodes[0].nodeValue + "</code>";
+xmlDoc.getElementsByTagName("post")[0].childNodes[0].nodeValue + "</code>";
 </script>
     </footer>
     </center>
