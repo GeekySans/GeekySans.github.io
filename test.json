@@ -1,4 +1,4 @@
-'{
+{
   "username":"GeekySans", 
   "bio":"Hi my name is GeekySans this is something I'm planning that I call some sort of website social JSON feeds."
   "posts":[
@@ -11,4 +11,4 @@
   { "friend":"FRIEND_2" },
   { "friend":"FRIEND_1" },
   ]
-}'
+}
