@@ -2,5 +2,4 @@
   "username":"GeekySans", 
   "bio":"Hi my name is GeekySans this is something I'm planning that I call some sort of website social JSON feeds.",
   "posts":[{ "post":"POST_3" }, { "post":"POST_2" }, { "post":"POST_1" }]
-  "friends":[{ "friend":"FRIEND_3" }, { "friend":"FRIEND_2" }, { "friend":"FRIEND_1" }]
 }
