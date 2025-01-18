@@ -1,5 +1,5 @@
 {
   "username":"GeekySans",
   "bio":"Hi my name is GeekySans this is something I'm planning that I call some sort of website social JSON feeds.",
-  "friends":[{ "username":"getname_0", "bio":"0"}, { "username":"getname_1" "bio":"1"}, { "username":"getname_2" "bio":"2"}]
+  "friends":[{ "username":"getname_0", "bio":"0"}, { "username":"getname_1", "bio":"1"}, { "username":"getname_2", "bio":"2"}]
 }
