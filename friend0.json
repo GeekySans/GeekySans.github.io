@@ -1,4 +1,7 @@
 {
   "username":"BeekySans",
   "bio":"Hi my name is BeekySans this is BEEK"
+  "posturl":"https://geekysans.github.io/posts",
+  "postbatchs":"1",
+  "friends":[{ "userlink":"https://geekysans.github.io/socialfeed.json"}, { "userlink":"https://geekysans.github.io/friend1.json"}]
 }
