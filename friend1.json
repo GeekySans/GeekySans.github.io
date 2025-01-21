@@ -3,5 +3,5 @@
   "bio":"Hi my name is CheekySans this is a Cheeky"
   "posturl":"https://geekysans.github.io/posts",
   "postbatchs":"1",
-  "friends":[{ "userlink":"https://geekysans.github.io/friend0.json"}, { "userlink":"https://geekysans.github.io/friend1.json"}]
+  "friends":[{ "userlink":"https://geekysans.github.io/friend0.json"}, { "userlink":"https://geekysans.github.io/socialfeed.json"}]
 }
