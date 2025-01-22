@@ -3,6 +3,5 @@
   "bio":"Hi my name is GeekySans this is something I'm planning that I call some sort of website social JSON feeds.",
   "posturl":"https://geekysans.github.io/posts",
   "postbatchs":"1",
-  "friends":[{ "userlink":"https://geekysans.github.io/friend0.json"}, { "userlink":"https://geekysans.github.io/friend1.json"}],
-  "bulletins":[{ "bulletin":"https://geekysans.github.io/bulletin0.json" }, { "bulletin":"https://geekysans.github.io/bulletin1.json" }]
+  "friends":[{ "userlink":"https://geekysans.github.io/friend0.json", "bulletin":"https://geekysans.github.io/bulletin0.json"}, { "userlink":"https://geekysans.github.io/friend1.json", "bulletin":"https://geekysans.github.io/bulletin1.json"}]
 }
