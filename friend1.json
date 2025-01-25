@@ -3,5 +3,5 @@
   "bio":"Hi my name is CheekySans this is a Cheeky",
   "posturl":"https://geekysans.github.io/posts",
   "postbatchs":"1",
-  "friends":[{ "userlink":"https://geekysans.github.io/friend0.json", "bulletin":"https://geekysans.github.io/bulletin0.json" }, { "userlink":"https://geekysans.github.io/socialfeed.json", "bulletin":"https://geekysans.github.io/bulletin1.json" }]
+  "friends":[{ "userlink":"https://geekysans.github.io/friend0.json", "bulletin":"https://geekysans.github.io/bulletinBeekySans0.json" }, { "userlink":"https://geekysans.github.io/socialfeed.json", "bulletin":"https://geekysans.github.io/bulletinGeekySans0.json" }]
 }
