@@ -1,0 +1,39 @@
+#user {
+width: 50%;
+margin: 5px;
+padding: 5px;
+border-style: solid;
+border-color: black;
+border-width: 1px;
+border-radius: 5px;
+}
+
+#friends {
+width: 75%;
+margin: 5px;
+padding: 5px;
+border-style: solid;
+border-color: black;
+border-width: 1px;
+border-radius: 5px;
+}
+
+#friend {
+width: 75%;
+margin: 5px;
+padding: 5px;
+border-style: solid;
+border-color: black;
+border-width: 1px;
+border-radius: 5px;
+}
+
+#posts {
+width: 50%;
+margin: 5px;
+padding: 5px;
+border-style: solid;
+border-color: black;
+border-width: 1px;
+border-radius: 5px;
+}
