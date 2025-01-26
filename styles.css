@@ -1,6 +1,7 @@
 body {
 width: 100%;
 background-image: url('cloudocean.png');
+background-color: #368cd5;
 background-repeat: repeat;
 background-attachment: scroll;
 background-size: 23% 23%;
