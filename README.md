@@ -1,3 +1,29 @@
-<h1>Welcome to my Website</h1>
-<p>Hi everyone this does look a bit blank right now but this is because my real home page is on <a href="/home">geekysans.github.io/home</a></p>
-<p>If you're viewing this from github here's the second link <a href="https://geekysans.github.io/home">geekysans.github.io/home</a></p>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GeekySans's Digital Playground</title>
+    <link href="styles.css" type="text/css" rel="stylesheet" />
+    <iframe width="0%" height="0" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1374487636&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
+    </iframe>
+</head>
+    <body>
+    <center>
+    <nav id="menu"></nav>
+        <div class="aboutme">
+        <h1>About Me:</h1>
+        <h2>Hello everyone(that came here) I'm GeekySans(I don't really play Undertale anymore but I may play some deltarune)</h2> 
+        <h3>I like coding websites and reading right now. The current book I'm reading is WildWood Imperium and WildWood is a good book series you 🫵 should read it.</h3>
+        <h3>Outer Wilds is also quite good(I'm listening to the soundtrack right now) It's a game where you're in a time loop and you're trying to know more about the world you're in.</h3>
+        <a href="https://ncase.me/"><h1>Some Cool Shtuff...</h1></a>
+        </div>
+        <div id="blogtable"></div>
+        <div id="gametable"></div>
+        <nav id="menu"></nav>
+    <footer>
+        <script src="grabblogs.js"></script>
+        <script src="grabgames.js"></script>
+        <script src="grabmenu.js"></script>
+    </footer>
+    </center>
+    </body>
+</html>
