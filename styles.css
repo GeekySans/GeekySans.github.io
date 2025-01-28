@@ -44,7 +44,9 @@ background-color: indigo;
 .aboutme {
 }
 h1,h2,h3,p,h4,h5,h6,button {
-  color: white;
+color: white;
+}
+h1,h2,h3,p,h4,h5,h6,button,input {
   font-family: sans-serif;
   font-size: 20px;
 }
