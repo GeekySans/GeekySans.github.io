@@ -5,6 +5,11 @@ let friends = "";
 let n;
 let locateUser = "https://geekysans.github.io/socialfeed.json";
 
+const formEl = document.queryselector.('.form');
+formEl.addEventListener('submit', () => {
+  event.preventDefault();
+});
+
 getUser(locateUser);
 
 async function getUser(file) {
