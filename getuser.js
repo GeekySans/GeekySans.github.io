@@ -6,7 +6,7 @@ let n;
 let locateUser;
 
 const formEl = document.queryselector('.form');
-formEl.addEventListener('submit', () => {
+formEl.addEventListener('submit', event => {
   event.preventDefault();
   const formData = new formData(formEl);
   locateUser = formData.get('website');
