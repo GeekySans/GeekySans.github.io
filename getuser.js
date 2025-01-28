@@ -14,8 +14,6 @@ formEl.addEventListener('submit', () => {
   getUser(locateUser);
 });
 
-getUser(locateUser);
-
 async function getUser(file) {
   let myObject = await fetch(file);
   let myJSON = await myObject.text();
