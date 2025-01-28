@@ -1,5 +1,5 @@
 body {
-width: 940px;
+width: 1536px;
 background-image: url('cloudocean.png');
 background-color: #368cd5;
 background-repeat: repeat;
@@ -7,7 +7,7 @@ background-attachment: scroll;
 background-size: 46px 46px;
 }
 .menu {
-width: 940px;
+width: 1536px;
 }
 .stuff {
 border-width: 1px solid; 
