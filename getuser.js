@@ -3,13 +3,15 @@ let friendData;
 let bulletinData;
 let friends = "";
 let n;
-let locateUser = "https://geekysans.github.io/socialfeed.json";
+let locateUser;
 
-const formEl = document.queryselector.('.form');
+const formEl = document.queryselector('.form');
 formEl.addEventListener('submit', () => {
   event.preventDefault();
   const formData = new formData(formEl);
-  console.log(formData.get('website'));
+  locateUser = formData.get('website');
+  console.log(locateUser);
+  getUser(locateUser);
 });
 
 getUser(locateUser);
