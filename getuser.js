@@ -8,7 +8,7 @@ let locateUser;
 const formEl = document.querySelector('.form');
 formEl.addEventListener('submit', event => {
   event.preventDefault();
-  const formData = new formData(formEl);
+  const formData = new FormData(formEl);
   locateUser = formData.get('website');
   console.log(locateUser);
   getUser(locateUser);
