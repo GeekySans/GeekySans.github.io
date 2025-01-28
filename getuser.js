@@ -23,6 +23,8 @@ async function getUser(file) {
 for (i = 0; i < userData.friends.length; i++) {
   getFriend(userData.friends[i].userlink);
 }
+  friends = "";
+  
   n = userData.postbatchs;
   getPosts(userData.posturl + n + ".json");
 }
