@@ -42,6 +42,7 @@ async function getBulletin(file, username, bio) {
 }
 
 function displayFriend(username, bio, bulletintitle, bulletintext) {
+  friends = "";
   friends = friends + "<div id='friend'><h3>" + username + "</h3>" + "<h3>Bio: " + bio + "</h3>";
   friends = friends + "<h3>Bulletins:</h3> <h3>" + bulletintitle + "</h3>" + "<h3>" + bulletintext + "</h3></div>";
   document.getElementById('friends').innerHTML = friends;
