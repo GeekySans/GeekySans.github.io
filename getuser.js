@@ -8,6 +8,8 @@ let locateUser = "https://geekysans.github.io/socialfeed.json";
 const formEl = document.queryselector.('.form');
 formEl.addEventListener('submit', () => {
   event.preventDefault();
+  const formData = new formData(formEl);
+  console.log(formData.get('website'));
 });
 
 getUser(locateUser);
