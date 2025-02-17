@@ -1,5 +1,4 @@
 body {
-width: 1536px;
 background-image: url('cloudocean.png');
 background-color: #368cd5;
 background-repeat: repeat;
@@ -8,7 +7,7 @@ background-size: 32px 32px;
 background-position: top, center;
 }
 .menu {
-width: 1536px;
+
 }
 .stuff {
 border-width: 1px solid; 
