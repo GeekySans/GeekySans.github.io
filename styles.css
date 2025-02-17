@@ -7,7 +7,9 @@ background-size: 32px 32px;
 background-position: top, center;
 }
 .menu {
-
+position: fixed;
+z-index: 1;
+float: left;
 }
 .stuff {
 border-width: 1px solid; 
