@@ -2,17 +2,21 @@
 <rss version="2.0">
 
 <channel>
-  
-  <title>My OCD</title>
-  <link>geekysans.github.io/OCD</link>
-  <description>Well it's about my OCD and this weird monster inside of my head that wants to destory everything.</description>
+  <title>Judy</title>
+  <link>geekysans.github.io</link>
+  <description>This is my blogfeed.</description>
   
   <item>
-  <title>History Of Coding</title>
-  <link>geekysans.github.io/historyofcoding</link>
-  <description>This is how I began my coding journey and how I'm making this RSS feed.</description>
+    <title>My OCD</title>
+    <link>geekysans.github.io/OCD</link>
+    <description>Well it's about my OCD and this weird monster inside of my head that wants to destory everything.</description>
   </item>
   
+  <item>
+    <title>History Of Coding</title>
+    <link>geekysans.github.io/historyofcoding</link>
+    <description>This is how I began my coding journey and how I'm making this RSS feed.</description>
+  </item>
 </channel>
 
 </rss>
